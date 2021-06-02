@@ -1,0 +1,22 @@
+dummyactor:
+	RenderSprites:
+	WithSpriteBody:
+	BodyOrientation:
+	QuantizeFacingsFromSequence:
+	HitShape:
+		Type: Circle
+			Radius: 512
+	Selectable:
+	SelectionDecorations:
+	AlwaysVisible:
+	Mobile:
+		Speed: 100
+		Locomotor: dummyLocomotor
+	MapEditorData:
+		Categories: Actors
+
+world:
+	Locomotor:
+		Name: dummyLocomotor
+		TerrainSpeeds:
+			Clear: 100
